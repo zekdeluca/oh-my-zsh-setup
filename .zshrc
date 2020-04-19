@@ -121,3 +121,6 @@ eval "$(pyenv virtualenv-init -)"
 
 # AWS cli - Add to path
 export PATH=~/.local/bin:$PATH
+
+# Add GNU coreutils to path (shred and other commands)
+export PATH="$PATH:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin"
