@@ -124,3 +124,6 @@ export PATH=~/.local/bin:$PATH
 
 # Add GNU coreutils to path (shred and other commands)
 export PATH="$PATH:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin"
+
+# TMUX aliases
+alias tmux-cockpit='~/Documents/dev/tmux-setup/layouts/cockpit.sh'

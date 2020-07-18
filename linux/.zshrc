@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor
 export EDITOR=vim
+
+# TMUX aliases
+alias tmux-cockpit='~/Documents/dev/tmux-setup/layouts/cockpit.sh'
