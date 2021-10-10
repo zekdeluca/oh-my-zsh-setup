@@ -130,3 +130,6 @@ alias tmux-cockpit='~/Documents/dev/tmux-setup/layouts/cockpit.sh'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Add sbin to PATH (brew)
+export PATH="/usr/local/sbin:$PATH"
