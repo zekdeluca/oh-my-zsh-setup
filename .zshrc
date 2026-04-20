@@ -130,7 +130,7 @@ export PATH=~/.local/bin:$PATH
 export PATH="$PATH:$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin"
 
 # TMUX aliases
-alias tmux-cockpit='~/Documents/dev/tmux-setup/layouts/cockpit.sh'
+alias tmux-cockpit='~/Documents/Development/dev/Projects/tmux-setup/layouts/cockpit.sh'
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
